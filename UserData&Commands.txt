@@ -7,12 +7,30 @@ apt-get install -y git
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 apt-get install -y nodejs
 cd /home/ubuntu/
-git clone https://github.com/DebrupPramanik/myRepoV1.git
-cd myRepoV1
-npm install
+git clone https://github.com/DebrupPramanik/myrepov1.git
+cd myrepov1
+sudo npm install
 node index.js
 
+
 #!/bin/bash
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install -y nginx
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+cd /home/ubuntu/
+git clone https://github.com/DebrupPramanik/myrepov1.git
+cd myrepov1
+sudo npm install
+node index.js
+
+
+#!/bin/bash
+sudo su
 apt-get update
 apt-get install -y nginx
 systemctl start nginx
@@ -20,10 +38,12 @@ systemctl enable nginx
 apt-get install -y git
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 apt-get install -y nodejs
-git clone https://github.com/moumita02314/myawsproject1.git
-cd myawsproject1
+cd /home/ubuntu/
+git clone https://github.com/DebrupPramanik/myrepov1.git
+cd myrepov1
 npm install
 node index.js
+
 
 
 
